@@ -15,7 +15,7 @@ const data = [
     description: `Helped the following folks grow before this:.`,
     description2:"Claim to fame: Appearing in the last minute of",
     description3:"Tal64 is now growing fast — an intro page for the whole team is under construction. And we are hiring across roles— write to us!",
-    moreLink: 'https://www.facebook.com/watch/?v=2913084958978345&ref=sharing',
+    moreLink: 'https://fb.watch/dDaunHTvcz/',
     image: tabImage1,
     list: [
       'Akshayakalpa (2018-2020; DTC vertical - App)',
@@ -59,7 +59,8 @@ const WhyUs = () => {
                   {item.description2}
                 </Text>
                 <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="a video with 100 Million+ Views." />
+                  {/* <LearnMore path={item.moreLink} label="a video with 100 Million+ Views." /> */}
+                  <a href="https://fb.watch/dDaunHTvcz/" target="_blank">a video with 100 Million+ Views. > </a>
                 </Box>
                 <Text as="p" sx={styles.description3}>
                   {item.description3}
