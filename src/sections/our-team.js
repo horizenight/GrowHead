@@ -11,6 +11,11 @@ import avatar1 from 'assets/images/team/avatar1.png';
 import avatar2 from 'assets/images/team/avatar2.png';
 import avatar3 from 'assets/images/team/avatar3.png';
 import avatar4 from 'assets/images/team/avatar4.png';
+import avatar5 from 'assets/images/team/avatar5.png';
+import avatar6 from 'assets/images/team/avatar6.png';
+import avatar7 from 'assets/images/team/avatar7.png';
+import avatar8 from 'assets/images/team/avatar8.png';
+import avatar9 from 'assets/images/team/avatar9.png';
 import arrowRight from 'assets/images/icons/arrow-right.png';
 
 SwiperCore.use([Navigation, Pagination]);
@@ -86,6 +91,101 @@ const data = [
     name: 'CustomerGlu',
     designation: 'A SaaS platform to gamify customer engagement and solve the problem of user churn.',
     designation2:'Backed by: Techstars, Better Capital',
+    socialLinks: [
+      {
+        name: 'twitter',
+        link: 'http://twitter.com',
+      },
+      
+        {
+          name: 'instagram',
+          link: 'http://instagram.com',
+        },
+    ],
+  },
+  
+  {
+    id: 5,
+    avatar: avatar5,
+    name: 'Barrel Motors',
+    designation: 'A global D2C aftermarket bike accessories platform with a passionate consumer base now building Electric Bikes.',
+    designation2:'Backed by: Angels',
+    socialLinks: [
+      {
+        name: 'twitter',
+        link: 'http://twitter.com',
+      },
+      
+        {
+          name: 'instagram',
+          link: 'http://instagram.com',
+        },
+    ],
+  },
+
+ 
+
+  {
+    id: 6,
+    avatar: avatar6,
+    name: 'Threedots',
+    designation: 'The community for everyone to discuss the markets, interact with experts, and gain financial independence.',
+    designation2:'Backed by: Kunal Shah, Better Capital',
+    socialLinks: [
+      {
+        name: 'twitter',
+        link: 'http://twitter.com',
+      },
+      
+        {
+          name: 'instagram',
+          link: 'http://instagram.com',
+        },
+    ],
+  },
+  {
+    id: 7,
+    avatar: avatar7,
+    name: 'Chesslang',
+    designation: 'Chess coaching platform that allows chess coaches to set up an online academy right from their website. Within 2 minutes.',
+    designation2:'Backed by: Bootstrapped',
+    socialLinks: [
+      {
+        name: 'twitter',
+        link: 'http://twitter.com',
+      },
+      
+        {
+          name: 'instagram',
+          link: 'http://instagram.com',
+        },
+    ],
+  },
+  {
+    id: 8,
+    avatar: avatar8,
+    name: 'Spektacom',
+    designation: 'Spektacom is a sportstech startup led by Cricket legend Anil Kumble, India’s most successful bowler. The firm develops products for performance analysis and fan engagement.',
+  
+    socialLinks: [
+      {
+        name: 'twitter',
+        link: 'http://twitter.com',
+      },
+      
+        {
+          name: 'instagram',
+          link: 'http://instagram.com',
+        },
+    ],
+  },
+
+  {
+    id: 9,
+    avatar: avatar9,
+    name: 'Unposted Letters',
+    designation: 'Unposted Letters is the official store of Vimal Chandran. It is an extention of a series of doodles by Vimal. The design philosophy - simple, minimal and impactful.',
+   
     socialLinks: [
       {
         name: 'twitter',

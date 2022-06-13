@@ -13,6 +13,7 @@ const Service = ({ item }) => {
       <Box sx={styles.content}>
         <Heading as="h3">{item?.title}</Heading>
         <Text as="p">{item?.description}</Text>
+       {item.description2 &&  <Text as="p">{item?.description2}</Text>}
         {item?.moreLink && <LearnMore path={item?.moreLink} />}
       </Box>
     </Box>

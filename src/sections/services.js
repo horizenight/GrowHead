@@ -14,43 +14,55 @@ const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'Growth Marketing Stack - Mobile, Website',
-    description: `Develop and implement a growth marketing stack across your assets. We will help you find the channels that work for your product and custom design the stack and implement it for you. The analytics built on top of it will show you how we are moving towards the targets.
-
+    title: 'AMPLIFYING MEDIA VISIBILITY BY 100X',
+    description: `Increasing media visibility through Company/Proffesional profiling opportunities
+    Increasing visibility by participating in Industry and feature stories
+    RBM with Media
+    
+   
     `,
+    description2:` Strategic counsel, advice & development of the PR Campaign
+    Engagement with relevant stakeholders – Media and influencers
+    Key messages development
+    Drafting and creating media kit – press releases, backgrounders,pitch notes etc
+    Crisis planning & management`
+
   },
   {
     id: 3,
     icon: icon2,
-    title: 'Content Development',
-    description: `Content — apart from code, talent, and capital — is the modern lever that powers your business. It does so via ads, blog posts, social media posts, your product itself. We create your content strategy and develop the actual content - written text, visuals, videos, etc. We are a talented team of creatives, YouTubers with silver play buttons, passionate writers with published content. We develop Blog Posts (SEO aligned), Social Media Posts, Infographics, Carousels, Video Clips, Gifs, etc. Use content to build a compounding growth loop that drives concrete business value.`,
+    title: 'Strategic Content development( Text, Audio, Video & Graphics )',
+    description: `We develop SEO aligned Blog Posts ,Social Media Posts, Infographics, Carousels, Video Clips, audio clips etc.`,
+    description2: `
+    The goal will either be to build a connection with an audience or to encourage some kind of marketing or sales outcome.`,
   },
   {
     id: 4,
     icon: icon3,
-    title: 'Cold Emailing',
-    description: `An underrated growth engine, especially for B2B startups. Fuel the 0-1 stage of your startup growth by implementing our unique framework with 90%+ positive reply rate. Implement a system to develop subject lines that make your prospect reply. We arrive at the framework by going through a period of experimentation and then once we get it working, we scale it to drive concrete business value for you.`,
+    title: 'Email, SMS & Whatsapp marketing',
+    description: `It’s important to get your message in front of customers, prospects and communities in real-time. We Implement a system to develop subject lines that make your prospect reply. We arrive at the framework by going through a period of experimentation and then once we get it working, we scale it to drive concrete business value for you.`,
   },
   {
     id: 1,
     icon: icon1,
-    title: 'Growth Marketing Stack - Mobile, Website',
-    description: `Develop and implement a growth marketing stack across your assets. We will help you find the channels that work for your product and custom design the stack and implement it for you. The analytics built on top of it will show you how we are moving towards the targets.
+    title: 'Performance marketing',
+    description: `Unlike traditional and organic marketing, our performance marketing campaigns are specifically used to drive actions, track and measure those actions, all while attributing the ROI of each asset, campaign or activity. Our content with our performance marketing skills create ads that actually work and have higher conversions.
 
     `,
   },
   {
     id: 3,
     icon: icon2,
-    title: 'Content Development',
-    description: `Content — apart from code, talent, and capital — is the modern lever that powers your business. It does so via ads, blog posts, social media posts, your product itself. We create your content strategy and develop the actual content - written text, visuals, videos, etc. We are a talented team of creatives, YouTubers with silver play buttons, passionate writers with published content. We develop Blog Posts (SEO aligned), Social Media Posts, Infographics, Carousels, Video Clips, Gifs, etc. Use content to build a compounding growth loop that drives concrete business value.`,
+    title: 'Tech-driven Business Growth',
+    description: `We Develop More Than Just A Good Looking Website or APP
+    Developing website is much more than design and content. It involves carefully considering every aspect – from choosing the right development platform to considering the various tech integrations - to improve your CRO.`,
   },
-  {
-    id: 4,
-    icon: icon3,
-    title: 'Cold Emailing',
-    description: `An underrated growth engine, especially for B2B startups. Fuel the 0-1 stage of your startup growth by implementing our unique framework with 90%+ positive reply rate. Implement a system to develop subject lines that make your prospect reply. We arrive at the framework by going through a period of experimentation and then once we get it working, we scale it to drive concrete business value for you.`,
-  },
+  // {
+  //   id: 4,
+  //   icon: icon3,
+  //   title: 'Cold Emailing',
+  //   description: `An underrated growth engine, especially for B2B startups. Fuel the 0-1 stage of your startup growth by implementing our unique framework with 90%+ positive reply rate. Implement a system to develop subject lines that make your prospect reply. We arrive at the framework by going through a period of experimentation and then once we get it working, we scale it to drive concrete business value for you.`,
+  // },
 ];
 
 const Services = () => {
@@ -59,10 +71,10 @@ const Services = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Grow your startup with our Service"
-          description="We take ownership of your growth engine. We obsess over it as if we are building and operating the Space Shuttle(with lives at stake) 🚀
+          title="ROI focused approach to build your business"
+          description="Our mission is to enable Businessmen to inspire the change they set out to be, by addressing their every communication, media, image building and marketing needs. 🚀
           "
-          description1="We provide strategy to build and run the growth engine(s). We execute it on your behalf. We typically partner with young startups making their 0-1 journey.
+          description1="We blend the complexities of your business with our art of communication to reach out to your audience in a language they understand.
           "
         />
 

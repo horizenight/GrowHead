@@ -12,8 +12,8 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Our KRA: Grow your user base and revenue."
-            description="Hi! We are Tal64 👋"
+            title="Reach a Million: Building Billion people brand !"
+            description=""
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
