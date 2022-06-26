@@ -20,24 +20,24 @@ const SubscribeUs2 = () => {
   }, [checked]);
 
   return (
-    <Box as="section" sx={styles.section} variant="section.subscribe">
+    <Box as="section" id="contact" sx={styles.section} variant="section.subscribe">
       <Container>
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
             title="Contact"
-            description='hello@tal64.com'
+            description='communication@growthead.com'
             
           />
       
-          <SectionHeading
+          {/* <SectionHeading
             sx={styles.heading1}
             title="Registered Address:"
           
             description="D/114, Shyam Ashish, Samrat Complex, Bolinj Road, Virar (West), Maharashtra - 401303 | GSTIN: 27AAICT7311E1ZF"
           />
       
-         
+          */}
         </Box>
       </Container>
     </Box>

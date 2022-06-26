@@ -9,18 +9,18 @@ export default [
   },
   {
     path: 'team',
-    label: 'Team',
+    label: 'Clients',
   },
+  // {
+  //   path: 'why-us',
+  //   label: 'Why Us',
+  // },
+  // {
+  //   path: 'contact',
+  //   label: 'Blog',
+  // },
   {
-    path: 'why-us',
-    label: 'Why Us',
-  },
-  {
-    path: 'blog',
-    label: 'Blog',
-  },
-  {
-    path: 'login',
-    label: 'Login',
+    path: 'contact',
+    label: 'Contact',
   },
 ];

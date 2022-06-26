@@ -60,7 +60,7 @@ const WhyUs = () => {
                 </Text>
                 <Box sx={styles.learnMore}>
                   {/* <LearnMore path={item.moreLink} label="a video with 100 Million+ Views." /> */}
-                  <a href="https://fb.watch/dDaunHTvcz/" target="_blank">a video with 100 Million+ Views. > </a>
+                  <a href="https://fb.watch/dDaunHTvcz/" target="_blank">a video with 100 Million+ Views.{'>'} </a>
                 </Box>
                 <Text as="p" sx={styles.description3}>
                   {item.description3}

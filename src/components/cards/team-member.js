@@ -1,7 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
-import { FaTwitter, FaGithub, FaDribbble ,FaInstagram} from 'react-icons/fa';
+import { FaTwitter, FaGithub, FaDribbble ,FaInstagram,FaFirefoxBrowser} from 'react-icons/fa';
 
 const TeamMember = ({ member }) => {
   return (
@@ -20,7 +20,7 @@ const TeamMember = ({ member }) => {
           {member?.socialLinks?.map((social, index) => (
             <Link href={social?.link} key={index}>
               {social?.name === 'twitter' && (
-                <FaTwitter size="18px" color="#55ACEE" />
+                <FaFirefoxBrowser size="18px" color="black" />
               )}
               {social?.name === 'github' && (
                 <FaGithub size="18px" color="#161614" />
@@ -53,6 +53,21 @@ const styles = {
   avatar: {
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor:'black',
+    padding:'1rem',
+    borderRadius:'10px',
+    width:  '300px',
+    height: '300px',
+    objectFit:'cover',
+    "& :nth-child(even)":{
+     
+      backgroundColor:'white',
+      padding:'1rem',
+      
+    },
+
+
+    
   },
   about: {
     mt: [4],

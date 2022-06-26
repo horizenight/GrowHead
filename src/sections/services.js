@@ -5,6 +5,11 @@ import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
 import icon1 from 'assets/images/icons/service1.png';
+import icon11 from 'assets/images/icons/megaphone.png';
+//import icon12 from 'assets/images/icons/video.png';
+import icon12 from 'assets/images/icons/development.png';
+import icon13 from 'assets/images/icons/performance.png';
+import icon14 from 'assets/images/icons/techbuisnees.png';
 import icon2 from 'assets/images/icons/service2.png';
 import icon3 from 'assets/images/icons/service3.png';
 
@@ -13,7 +18,7 @@ import icon3 from 'assets/images/icons/service3.png';
 const data = [
   {
     id: 1,
-    icon: icon1,
+    icon: icon11,
     title: 'AMPLIFYING MEDIA VISIBILITY BY 100X',
     description: `Increasing media visibility through Company/Proffesional profiling opportunities
     Increasing visibility by participating in Industry and feature stories
@@ -30,7 +35,7 @@ const data = [
   },
   {
     id: 3,
-    icon: icon2,
+    icon: icon12,
     title: 'Strategic Content development( Text, Audio, Video & Graphics )',
     description: `We develop SEO aligned Blog Posts ,Social Media Posts, Infographics, Carousels, Video Clips, audio clips etc.`,
     description2: `
@@ -44,7 +49,7 @@ const data = [
   },
   {
     id: 1,
-    icon: icon1,
+    icon: icon13,
     title: 'Performance marketing',
     description: `Unlike traditional and organic marketing, our performance marketing campaigns are specifically used to drive actions, track and measure those actions, all while attributing the ROI of each asset, campaign or activity. Our content with our performance marketing skills create ads that actually work and have higher conversions.
 
@@ -52,7 +57,7 @@ const data = [
   },
   {
     id: 3,
-    icon: icon2,
+    icon: icon14,
     title: 'Tech-driven Business Growth',
     description: `We Develop More Than Just A Good Looking Website or APP
     Developing website is much more than design and content. It involves carefully considering every aspect – from choosing the right development platform to considering the various tech integrations - to improve your CRO.`,

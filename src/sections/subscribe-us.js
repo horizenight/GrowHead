@@ -32,7 +32,7 @@ const SubscribeUs = () => {
           <SectionHeading
             sx={styles.heading}
           
-            description="For case studies w.r.t. our services, connection with founders we are working with, etc. kindly drop an email: hello@tal64.com"
+            description="Kindly drop an email at communications@growthead.com"
           />
       
          
