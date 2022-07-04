@@ -41,6 +41,7 @@ const styles = {
         alignItems: 'center',
         img: {
           mr: '15px',
+          mb:'10px'
         },
       },
       a: {

@@ -104,7 +104,7 @@ export const menuItems = [
       {
         path: '#!',
         icon: dribbble,
-        label: '',
+        label: '           ',
       },
     ],
   },
