@@ -18,7 +18,7 @@ export default function Footer() {
             </Box>
             <Box sx={styles.terms}>
               <Text as="span">Copyright</Text>
-              <Text as="span">By</Text>
+            
               <Text as="span">TechJournal</Text>
             </Box>
             {/* <Text as="p" sx={styles.copyright}>

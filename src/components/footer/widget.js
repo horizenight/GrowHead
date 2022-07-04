@@ -11,8 +11,10 @@ const Widget = ({ title, items }) => {
       <ul>
         {items.map(({ path, label, icon }, i) => (
           <li key={i}>
+           
+            <Link path={path} key={i} label={label} variant="footer" >
             {icon && <Image src={icon} alt={label} />}
-            <Link path={path} key={i} label={label} variant="footer" />
+            </Link>
           </li>
         ))}
       </ul>
@@ -33,14 +35,18 @@ const styles = {
       letterSpacing: 'heading',
     },
     ul: {
+      display:'flex',
       listStyle: 'none',
       margin: '28px 0 0',
       padding: 0,
+
       li: {
-        display: 'flex',
+        display: 'block',
+        flex: '0 1 auto',
         alignItems: 'center',
         img: {
           mr: '15px',
+          mb:'10px'
           
         },
       },
