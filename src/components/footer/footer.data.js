@@ -1,12 +1,12 @@
 import facebook from '../../assets/images/icons/facebook.png';
 import twitter from '../../assets/images/icons/twitter.png';
-//import instagram from '../../assets/images/icons/instagram.png';
+import instagram1 from '../../assets/images/icons/instagram1.png';
 import linkdin from '../../assets/images/icons/linkdin.png';
 
 export default {
   facebook,
   twitter,
- // instagram,
+  instagram1,
   linkdin
 }
 
@@ -109,11 +109,11 @@ export const menuItems = [
         icon: linkdin,
         label: '',
       },
-      // {
-      //   path: '#!',
-      //   icon: instagram,
-      //   label: '',
-      // },
+      {
+        path: '#!',
+        icon: instagram1,
+        label: '',
+      },
     ],
   },
 ];
