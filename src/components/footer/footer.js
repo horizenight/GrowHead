@@ -17,13 +17,13 @@ export default function Footer() {
               <Logo />
             </Box>
             <Box sx={styles.terms}>
-              <Link path="#!">Terms of use</Link>
-              <Text as="span">|</Text>
-              <Link path="#!">Privacy</Link>
+              <Text as="span">Copyright</Text>
+              <Text as="span">By</Text>
+              <Text as="span">TechJournal</Text>
             </Box>
-            <Text as="p" sx={styles.copyright}>
-              {/* Copyright by {new Date().getFullYear()}  */}
-            </Text>
+            {/* <Text as="p" sx={styles.copyright}>
+              Copyright by {new Date().getFullYear()} TechJournal
+            </Text> */}
           </Box>
           {menuItems.map(({ id, title, items }) => (
             <Widget key={id} title={title} items={items} />
@@ -50,6 +50,7 @@ const styles = {
       'repeat(5, 1fr)',
     ],
   },
+  
   footerInner: {
     borderTop: `1px solid #D9E0E7`,
     display: ['block', null, 'flex'],
