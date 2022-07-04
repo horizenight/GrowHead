@@ -1,8 +1,14 @@
-import facebook from '../../assets/images/icons/facebook.png';
+import facebook from '../../assets/images/icons/';
 import twitter from '../../assets/images/icons/twitter.png';
 import instagram from '../../assets/images/icons/instagram.png';
 import linkdin from '../../assets/images/icons/linkdin.png';
 
+export default {
+  facebook,
+  twitter,
+  instagram,
+  linkdin
+}
 
 export const menuItems = [
   {
