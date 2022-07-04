@@ -6,7 +6,7 @@ import linkdin from '../../assets/images/icons/linkdin.png';
 export default {
   facebook,
   twitter,
-  instagram,
+ // instagram,
   linkdin
 }
 
