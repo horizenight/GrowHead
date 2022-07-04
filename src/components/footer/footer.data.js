@@ -1,4 +1,4 @@
-import facebook from '../../assets/images/icons/';
+import facebook from '../../assets/images/icons/facebook.png';
 import twitter from '../../assets/images/icons/twitter.png';
 import instagram from '../../assets/images/icons/instagram.png';
 import linkdin from '../../assets/images/icons/linkdin.png';
