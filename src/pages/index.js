@@ -17,7 +17,7 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="GrowHead"
+          title="Growthead"
           description="ROI focused approach to build your business !"
         />
         <Banner />
