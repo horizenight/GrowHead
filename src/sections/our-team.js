@@ -370,7 +370,7 @@ const OurTeam = () => {
           sx={styles.heading}
           title="Meet our 
 🏆 Clients"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          description=""
         />
       </Container>
       <Box
