@@ -245,7 +245,7 @@ const data = [
   {
     id: 14,
     avatar: avatar14,
-    name: 'Asia Tech Journal',
+    name: 'TATA Tele Buisness Services',
     designation: 'Tata Tele Business Services (TTBS), belonging to the prestigious Tata Group of Companies, is the country’s leading enabler of connectivity and communication solutions for businesses',
   
     socialLinks: [

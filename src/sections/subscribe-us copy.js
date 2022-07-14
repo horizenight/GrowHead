@@ -26,7 +26,7 @@ const SubscribeUs2 = () => {
           <SectionHeading
             sx={styles.heading}
             title="Contact"
-            description='communication@growthead.com'
+            description='communications@growthead.com'
             
           />
       

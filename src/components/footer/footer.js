@@ -12,14 +12,15 @@ export default function Footer() {
     <Box as="footer" sx={styles.footer}>
       <Container>
         <Box sx={styles.footerTopInner}>
-          <Box sx={styles.about}>
-            <Box sx={styles.logo}>
+          <Box sx={styles._about}>
+            <Box sx={styles._logo}>
               <Logo />
             </Box>
-            <Box sx={styles.terms}>
-              <Text as="span">Copyright</Text>
+            <Box sx={styles._terms}>
+              <Text as="span">Copyright  </Text>
+              <Text as="span">|  </Text>
             
-              <Text as="span">TechJournal</Text>
+              <Text as="span">Growthead 2022</Text>
             </Box>
             {/* <Text as="p" sx={styles.copyright}>
               Copyright by {new Date().getFullYear()} TechJournal
@@ -60,7 +61,7 @@ const styles = {
   },
   about: {
     display: [null, null, null, 'grid', 'block'],
-    gridTemplateColumns: '205px 1fr 1fr',
+    gridTemplateColumns: '2050px 1fr 1fr',
     alignItems: ['center'],
     gridRow: ['3/4', null, '1/1', '3/4', 'unset'],
     gridColumn: ['1/3', null, '1/2', '1/5', 'unset'],

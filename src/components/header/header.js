@@ -25,13 +25,13 @@ export default function Header() {
                       </li>
                     ))}
                   </Box>
-                  <Button variant="text" sx={styles.getStartedDesktop}>
+                  {/* <Button variant="text" sx={styles.getStartedDesktop}>
                     Get Started
-                  </Button>
+                  </Button> */}
                 </Box>
-                <Button variant="text" sx={styles.getStartedMobile}>
+                {/* <Button variant="text" sx={styles.getStartedMobile}>
                   Get Started
-                </Button>
+                </Button> */}
                 <NavbarDrawer />
               </Box>
             </Container>
@@ -76,17 +76,16 @@ const styles = {
     display: ['none', null, null, null, 'flex'],
     alignItems: 'center',
     flexGrow: 1,
-    // justifyContent: 'center',
+    justifyContent: 'center',
   },
   navList: {
     display: ['flex'],
     listStyle: 'none',
-    // marginLeft: 'auto',
+    marginRight:'100px',
+    marginLeft: '550px',
     flexGrow: 1,
     p: 0,
-    'li:last-child': {
-      ml: ['auto'],
-    },
+   
     '.nav-item': {
       cursor: 'pointer',
       fontWeight: 400,

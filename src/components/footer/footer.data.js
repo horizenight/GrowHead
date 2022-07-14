@@ -95,12 +95,12 @@ export const menuItems = [
     title: 'Social Links',
     items: [
       {
-        path: '#!',
+        path: 'https://www.facebook.com/growtheadmedia/',
         icon: facebook,
         label: '',
       },
       {
-        path: '#!',
+        path: 'https://mobile.twitter.com/growthead',
         icon: twitter,
         label: '',
       },
@@ -110,7 +110,7 @@ export const menuItems = [
         label: '',
       },
       {
-        path: '#!',
+        path: 'https://www.instagram.com/growtheadmedia/',
         icon: instagram1,
         label: '',
       },
