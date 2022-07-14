@@ -105,7 +105,7 @@ export const menuItems = [
         label: '',
       },
       {
-        path: '#!',
+        path: 'https://www.linkedin.com/company/thegrowthead/',
         icon: linkdin,
         label: '',
       },
