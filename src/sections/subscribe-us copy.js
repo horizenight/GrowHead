@@ -54,13 +54,13 @@ const styles = {
       null,
       `#F8F0EA url(${illustration}) no-repeat center bottom / contain`,
     ],
-    pt: [8, null, null, null, 10],
-    pb: [8, null, null, 9, 11],
+    pt: [0, null, null, null, 10],
+    pb: [0, null, null, 9, 11],
   },
   contentWrapper: {
-    backgroundColor: '#fff',
+    backgroundColor: ['#F8F0EA','#fff'],
     borderRadius: 15,
-    p: [null, null, null, '40px 110px 50px', '50px 50px', '40px'],
+    p: ['70px', null, null, '40px 110px 50px', '50px 50px', '40px'],
     gap: '50px',
     display: 'flex',
         alignItems: 'center',
@@ -68,7 +68,7 @@ const styles = {
   },
   heading: {
     textAlign: ['center', null, 'left', 'center', 'left'],
-    mb: ['300px', null, null, null, 0],
+    mb: ['3px', null, null, null, 0],
     ml: 0,
     h2: {
       fontSize: [6, null, null, null, null, 8, 9],

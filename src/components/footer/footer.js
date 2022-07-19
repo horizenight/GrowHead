@@ -38,10 +38,10 @@ export default function Footer() {
 const styles = {
   footer: {
     pt: [8],
-    pb: [8],
+    pb: [1],
   },
   footerTopInner: {
-    gap: [30, null, 50, '20px 50px', 17, 50],
+    gap: [1, null, 50, '20px 50px', 17, 50],
     display: ['grid'],
     gridTemplateColumns: [
       'repeat(2, 1fr)',

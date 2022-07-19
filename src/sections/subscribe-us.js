@@ -7,7 +7,7 @@ import SectionHeading from 'components/section-heading';
 import Input from 'components/input';
 import illustration from 'assets/images/subscribe-bg.png';
 
-const SubscribeUs = () => {
+const SubscribeUs = (props) => {
   const [checked, setChecked] = useState(false);
 
   const handleSubmit = (e) => {
@@ -25,7 +25,7 @@ const SubscribeUs = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Like our service? "
+            title={props.heading}
             
           />
       
@@ -56,17 +56,17 @@ const styles = {
     pb: [8, null, null, 9, 11],
   },
   contentWrapper: {
-    backgroundColor: '#fff',
+   backgroundColor: ['#F8F0EA','#fff'],
     borderRadius: 15,
-    p: [null, null, null, '40px 110px 50px', '50px 50px', '40px'],
-    gap: '50px',
+    p: ['20px', null, null, '40px 110px 50px', '50px 50px', '40px'],
+    gap: '5px',
     display: 'flex',
         alignItems: 'center',
     gridTemplateColumns: ['repeat(1, 1fr)'],
   },
   heading: {
     textAlign: ['center', null, 'left', 'center', 'left'],
-    mb: ['300px', null, null, null, 0],
+    mb: ['30px', null, null, null, 0],
     ml: 0,
     h2: {
       fontSize: [6, null, null, null, null, 8, 9],

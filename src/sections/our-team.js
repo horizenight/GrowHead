@@ -420,8 +420,8 @@ export default OurTeam;
 
 const styles = {
   section: {
-    pt: [11, null, null, 12, null, 14],
-    pb: [11, null, null, 12, null, 14],
+    pt: [5, null, null, 12, null, 14],
+    pb: [1, null, null, 12, null, 14],
   
    
   },

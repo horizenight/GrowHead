@@ -5,20 +5,28 @@ import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import illustration from 'assets/images/banner-illustration.png';
 
+import Modal from 'components/modal/modal';
+import { useState } from 'react';
+
 const Banner = () => {
+  
+  const [isOpen, setIsOpen] = useState(false);
+
+
   return (
     <Box as="section" id="home" sx={styles.section}>
       <Container>
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Reach a Million: Building Billion people brand !"
+            title= "REACH A MILLION: BUILDING BILLION PEOPLE BRAND !"
             description=""
           />
           <Box as="figure" sx={styles.illustration}>
             <Box sx={styles.buttonWrapper}>
-              <Button>Get Started</Button>
+              <Button onClick={() => setIsOpen(true)} >Get Started</Button>
             </Box>
+            {isOpen && <Modal setIsOpen={setIsOpen} />}
             <Image src={illustration} alt="illustration" />
           </Box>
         </Box>

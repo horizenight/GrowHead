@@ -22,7 +22,7 @@ export default function IndexPage() {
         />
         <Banner />
         <Services />
-        <SubscribeUs />
+        <SubscribeUs heading="Like our service?" />
         {/* <Testimonials /> */}
         <OurTeam />
         {/* <OtherServices /> */}

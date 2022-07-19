@@ -38,7 +38,7 @@ const styles = {
     ul: {
       display:'flex',
       listStyle: 'none',
-      margin: '28px 0 0',
+      margin: '0 0 0',
       padding: 0,
 
       li: {
@@ -47,7 +47,7 @@ const styles = {
         alignItems: 'center',
         img: {
           mr: '15px',
-          mb:'10px'
+          mb:'0'
           
         },
       },
