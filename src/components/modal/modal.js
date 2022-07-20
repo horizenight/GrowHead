@@ -1,6 +1,6 @@
 
 import React from "react";
-import styles from "./Modal.module.css";
+import styles from "../../components/modal/modal.module.css";
 import { RiCloseLine } from "react-icons/ri";
 import SubscribeUs from "sections/subscribe-us";
 const Modal = ({ setIsOpen }) => {
